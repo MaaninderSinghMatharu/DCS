@@ -25,33 +25,33 @@ A rectangular section with reinforcement on tension and compression side is show
    
    where
     $f_y =$ characteristic strength of steel,
-    $A_st =$ Area of steel in tension,
-    $A_sc =$ Area of steel in compression,
-    $f_ck =$ charactristic strentgh of concrete, and
+    $A_{st} =$ Area of steel in tension,
+    $A_{sc} =$ Area of steel in compression,
+    $f_{ck} =$ charactristic strentgh of concrete, and
     $b =$ width of the beam.
     
    Note$-$ Depth of neutral axis decreases with increase in compression steel.
    
 ### Moment of ultimate resistance- ($M_u$)
     
-   $M_u = 0.36 f_c_k b x_u (d-0.42 x_u) + f_s_c A_s_c (d-d')$
+   $M_u = 0.36 f_{ck} b x_u (d-0.42 x_u) + f_{sc} A_{sc} (d-d')$
 
   where
    $d =$ effective depth of the beam,
-   $f_sc =$ Stress in steel in compression,
+   $f_{sc} =$ Stress in steel in compression,
 
 ### Area of steel-
   In tension-
-     $$A_st = \frac{M_u,lim}{0.87 f_y (d - 0.42 x_u_,_m_a_x)}$$
+     $$A_{st} = \frac{M_{u,lim}}{0.87 f_y (d - 0.42 x_{u,max}}$$
 where
 
-   $M_u,lim =$ limiting moment of resistance as shown in table below,
+   $M_{u,lim} =$ limiting moment of resistance as shown in table below,
    ![limiting moment of resistance](https://github.com/MaaninderSinghMatharu/MaaninderSinghMatharu/blob/main/limiting%20moment%20of%20resistance.jpg)
    
-   $f_sc =$ Stress in steel in compression,
+   $f_{sc} =$ Stress in steel in compression,
     
   In compression-
-     $$A_sc = \frac{M_u2}{f_sc (d - d')}$$
+     $$A_{sc} = \frac{M_{u2}}{f_{sc} (d - d')}$$
 
 
   Note$-$  of neutral axis decreases with increase in compression steel.
